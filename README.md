@@ -5,4 +5,9 @@
 1. 可以將檔案直接拖曳到執行檔上，當作 input 
 2. 將量測結果做積分之後輸出圖表
 
+## Reference
++ 
++ Python 匯出成 exe 執行檔
+    + [PyInstaller 教學](https://goo.gl/7txrPN)
+
 Develop by TTW, 詹法師的前導生(雖然他不記得我惹QAQ)
