@@ -4,9 +4,12 @@
 ## 功能
 1. 可以將檔案直接拖曳到執行檔上，當作 input 
 2. 將量測結果做積分之後輸出圖表
+3. 支援同時處理多份檔案
+
+## 自行安裝方法
+1. 撰寫完程式碼，使用 PyInstaller 包成執行檔即可執行
 
 ## Reference
-+ 
 + Python 匯出成 exe 執行檔
     + [PyInstaller 教學](https://goo.gl/7txrPN)
 
