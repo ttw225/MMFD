@@ -18,7 +18,6 @@ else:
         print()
         try:
             print("Reading File: {0:s} ... ".format(sys.argv[i]), end="")
-            # 圖片要支援多一些功能
             data = pd.read_csv(sys.argv[i], sep="\t",
                                index_col='Wavelength_Ref (nm)')
             print("OK!")
@@ -27,7 +26,7 @@ else:
             print("OK!")
             plt.show()
         except:
-            print("FALSE!!")
+            print("**FALSE!!**")
 
-print("Good Bye~")
+print("FINISH~")
 os.system('pause')
