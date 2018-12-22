@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
 # Master
 
-import sys
+print("Material Measurement Fast Drawing Program")
+print("使用方法：直接將檔案拖曳至本執行檔，即可進行繪圖")
+print("Develop by 王麒淞大帥哥")
+print("STARTING...")
+
 import os
+import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 
-print("Material Measurement Fast Drawing Program")
-print("使用方法：直接將檔案拖曳至本執行檔，即可進行繪圖")
-print("Develop by 王麒淞")
 # 處理沒有給檔案的狀況
 if(len(sys.argv) == 1):
     print("未偵測到檔案輸入")
