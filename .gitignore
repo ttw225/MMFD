@@ -63,3 +63,4 @@ Data/
 
 # Exe
 exe/
+!exe/dist/master/*
