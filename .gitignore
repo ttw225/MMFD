@@ -63,5 +63,5 @@ Data/
 
 # Exe
 exe/
-!exe/dist/master/*
 !exe/dist/master1.exe
+!exe/dist/master/*
