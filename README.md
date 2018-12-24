@@ -1,5 +1,5 @@
 # Material Measurement Fast Drawing
-均均老闆詹法師電腦效能太弱，沒辦法跑繪圖軟體，所以我想幫他們用 Python 來繪圖
+均均老闆詹法師電腦效能太弱，沒辦法跑繪圖軟體，所以我想用 Python 來幫忙繪圖
 ---
 ## 功能
 1. 可以將檔案直接拖曳到執行檔上，當作 input 

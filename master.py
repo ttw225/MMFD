@@ -26,7 +26,9 @@ else:
                                index_col='Wavelength_Ref (nm)')
             print("OK!")
             print("Generating Image ... ", end="")
-            data['Quantum Efficiency (%)'].plot(title=data.columns[4])
+            new = data['Quantum Efficiency (%)']
+            new = new[(new.index>300)&(new.index<1100)]
+            new.plot(title = data.columns[4])
             print("OK!")
             plt.show()
         except:
